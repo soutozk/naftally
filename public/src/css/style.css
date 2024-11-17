@@ -19,8 +19,11 @@ body {
   color: #ffffff;
 }
 
+#heart-btn img {
+  width: 250px;
+}
+
 .click {
-  margin-top: 5px;
   font-size: 20px;
   color: #ffffff;
 }
