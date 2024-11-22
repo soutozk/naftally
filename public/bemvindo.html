@@ -4,14 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/public/src/css/style.css" />
+    <title>Bem-vindo</title>
   </head>
   <body>
+    <!-- Botão inicial -->
     <button id="heart-btn" onclick="showTextBox()">
-      <img src="/public/src/img/imagem2.png" alt="" />
+      <img src="/public/src/img/imagem2.png" alt="Coração" />
     </button>
     <div class="click">
       <p>click me</p>
     </div>
+
+    <!-- Primeiro box de texto -->
     <div id="text-box" style="display: none">
       <div class="titulo">
         <h1 class="H1">
@@ -19,7 +23,6 @@
           <span>TNT6!!💥</span>
         </h1>
       </div>
-
       <div class="textoprincipal">
         <p>
           É com imensa alegria que damos as boas-vindas a você em nossa família!
@@ -31,10 +34,9 @@
       </div>
       <div class="cntimg">
         <div class="image">
-          <img src="/public/src/img/imagem1.png" alt="" />
+          <img src="/public/src/img/imagem1.png" alt="Imagem de boas-vindas" />
         </div>
       </div>
-
       <div class="versiculo">
         <p>
           “Portanto, acolham uns aos outros, da mesma forma que Cristo os
@@ -43,7 +45,7 @@
       </div>
     </div>
 
-    <!-- Novo Text Box -->
+    <!-- Segundo box de suporte -->
     <div id="support-box" style="display: none">
       <div class="titulo">
         <h2 class="H2">Estamos Aqui por Você!</h2>
@@ -61,7 +63,17 @@
           target="_blank"
           title="Fale conosco pelo WhatsApp"
         >
-          <img src="/public/src/img/whatsapp.png" alt="WhatsApp" />
+          <!-- Ícone SVG do WhatsApp -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 32 32"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path
+              d="M16.02 1c-8.012 0-14.52 6.514-14.52 14.526 0 2.561.674 5.064 1.96 7.26l-2.042 7.387 7.564-1.975a14.497 14.497 0 0 0 7.038 1.843h.002c8.01 0 14.523-6.514 14.523-14.525C30.544 7.514 24.03 1 16.02 1zm8.393 20.688c-.346.975-2.033 1.92-2.816 1.972-.723.048-1.658.35-5.51-1.177-4.636-1.91-7.567-6.635-7.793-6.944-.227-.31-1.858-2.472-1.858-4.72s1.17-3.337 1.583-3.798c.414-.462.91-.575 1.214-.575.304 0 .607.003.877.016.282.013.662-.106 1.037.79.375.895 1.273 3.095 1.386 3.314.113.218.19.479.038.763-.143.285-.214.472-.428.722-.214.25-.45.558-.638.747-.215.216-.439.452-.188.87.252.418 1.125 1.852 2.414 2.995 1.66 1.454 3.063 1.913 3.478 2.128.415.216.656.181.9-.109.245-.29 1.046-1.223 1.325-1.64.278-.416.556-.346.943-.207.387.14 2.452 1.154 2.872 1.366.42.212.7.316.803.491.104.175.104 1.016-.242 1.99z"
+            />
+          </svg>
         </a>
       </div>
     </div>
