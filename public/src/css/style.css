@@ -94,14 +94,34 @@ span {
   margin-top: 20px;
   text-align: center;
   width: 80%;
-  background: #111111;
+  background: #000000; /* Cor ajustada para coincidir com o outro box */
   color: #ffffff;
   padding: 20px;
-  border: 5px outset #4caf50;
+  border: 5px outset #ddb14a; /* Mesma borda do outro box */
   animation: fadeInUp 0.8s ease forwards;
 }
 
-#whatsapp-btn img {
-  width: 50px;
+#whatsapp-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  background: #25d366; /* Cor oficial do WhatsApp */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
   cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+#whatsapp-btn:hover {
+  transform: scale(1.1);
+}
+
+#whatsapp-btn svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px; /* Espaço entre o ícone e o texto */
 }
