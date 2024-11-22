@@ -89,3 +89,19 @@ span {
 .H1 {
   text-align: left;
 }
+
+#support-box {
+  margin-top: 20px;
+  text-align: center;
+  width: 80%;
+  background: #111111;
+  color: #ffffff;
+  padding: 20px;
+  border: 5px outset #4caf50;
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+#whatsapp-btn img {
+  width: 50px;
+  cursor: pointer;
+}
