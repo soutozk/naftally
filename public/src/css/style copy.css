@@ -1,0 +1,127 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: rgb(0, 0, 0);
+}
+
+#heart-btn {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  outline: none;
+  animation: pulse 0.6s infinite alternate;
+  color: #ffffff;
+}
+
+#heart-btn img {
+  width: 250px;
+}
+
+.click {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.textoprincipal {
+  text-align: justify;
+}
+
+.versiculo {
+  padding-top: 3%;
+}
+
+.cntimg {
+  float: right;
+}
+
+.image img {
+  width: 120px;
+}
+
+.titulo {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@keyframes pulse {
+  to {
+    transform: scale(1.2);
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#text-box {
+  margin-top: 10px;
+  text-align: center;
+  width: 80%;
+  height: auto;
+  background: #000000;
+  color: #ffffff;
+  margin-top: -20%;
+  padding: 20px;
+  border: 5px outset #ddb14a;
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.H1 {
+  text-align: left;
+}
+
+#support-box {
+  margin-top: 20px;
+  text-align: center;
+  width: 80%;
+  background: #000000; /* Cor ajustada para coincidir com o outro box */
+  color: #ffffff;
+  padding: 20px;
+  border: 5px outset #ddb14a; /* Mesma borda do outro box */
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+#whatsapp-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  background: #25d366; /* Cor oficial do WhatsApp */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+#whatsapp-btn:hover {
+  transform: scale(1.1);
+}
+
+#whatsapp-btn svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px; /* Espaço entre o ícone e o texto */
+}

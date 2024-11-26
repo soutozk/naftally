@@ -33,7 +33,7 @@ body {
 }
 
 .versiculo {
-  padding-top: 3%;
+  margin-top: 25%;
 }
 
 .cntimg {
@@ -42,21 +42,29 @@ body {
 
 .image img {
   width: 120px;
+  margin-top: 10%;
 }
 
 .titulo {
+  margin-top: 57%;
   width: 100%;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column; /* Alinha os itens em uma coluna */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  justify-content: center; /* Centraliza os itens verticalmente */
 }
 
-span {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.H1 {
+  text-align: left;
+  /* background-color: #25d366; */
+  margin-bottom: 0;
 }
+
+.H1sub {
+  /* background-color: aqua; */
+  margin-top: 0;
+  text-align: right;
+}
+
 @keyframes pulse {
   to {
     transform: scale(1.2);
@@ -77,51 +85,14 @@ span {
   margin-top: 10px;
   text-align: center;
   width: 80%;
-  height: auto;
-  background: #000000;
+  height: 75%;
+  background-image: url(/public/src/img/ft4.png);
+  background-repeat: no-repeat;
+  background-size: cover; /* Ajusta a imagem para cobrir todo o box */
+  background-position: center; /* Centraliza a imagem */
   color: #ffffff;
   margin-top: -20%;
   padding: 20px;
   border: 5px outset #ddb14a;
   animation: fadeInUp 0.8s ease forwards;
-}
-
-.H1 {
-  text-align: left;
-}
-
-#support-box {
-  margin-top: 20px;
-  text-align: center;
-  width: 80%;
-  background: #000000; /* Cor ajustada para coincidir com o outro box */
-  color: #ffffff;
-  padding: 20px;
-  border: 5px outset #ddb14a; /* Mesma borda do outro box */
-  animation: fadeInUp 0.8s ease forwards;
-}
-
-#whatsapp-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 16px;
-  background: #25d366; /* Cor oficial do WhatsApp */
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-#whatsapp-btn:hover {
-  transform: scale(1.1);
-}
-
-#whatsapp-btn svg {
-  width: 24px;
-  height: 24px;
-  margin-right: 8px; /* Espaço entre o ícone e o texto */
 }
