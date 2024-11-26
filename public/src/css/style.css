@@ -3,10 +3,11 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
+  height: 90vh;
   margin: 0;
   padding: 0;
   background: rgb(0, 0, 0);
+  overflow-y: auto;
 }
 
 #heart-btn {
@@ -95,4 +96,12 @@ body {
   padding: 20px;
   border: 5px outset #ddb14a;
   animation: fadeInUp 0.8s ease forwards;
+}
+
+@media (max-width: 768px) {
+  /* Tamanho típico para celulares */
+  #text-box {
+    max-height: 1200px; /* Defina o valor de acordo com sua necessidade */
+    overflow-y: auto; /* Adiciona rolagem caso o conteúdo exceda a altura máxima */
+  }
 }
