@@ -38,7 +38,7 @@ body {
 }
 
 .versiculo {
-  margin-top: 25%;
+  margin-top: 15%;
 }
 
 .cntimg {
@@ -90,7 +90,7 @@ body {
   margin-top: 10%;
   text-align: center;
   width: 9%; /* Garante que a largura seja relativa à tela */
-  min-height: 85vh; /* Pelo menos 90% da altura da janela */
+  min-height: 80vh; /* Pelo menos 90% da altura da janela */
   background-image: url(/public/src/img/ft3.webp);
   background-repeat: no-repeat;
   background-size: cover; /* Ajusta a imagem para cobrir todo o box */
@@ -112,7 +112,7 @@ body {
 @media (max-width: 375px) and (max-height: 667px) {
   #text-box {
     width: 90%; /* Ocupa toda a largura disponível */
-    min-height: 85vh; /* Ajusta para não ultrapassar a altura da tela */
+    min-height: 83vh; /* Ajusta para não ultrapassar a altura da tela */
     padding: 15px; /* Reduz o padding para otimizar o espaço */
     border: 4px outset #ddb14a; /* Bordas mais sutis */
     font-size: 14px; /* Texto menor para se adequar ao tamanho da tela */
@@ -135,7 +135,7 @@ body {
 @media (max-width: 414px) and (max-height: 736px) {
   #text-box {
     width: 95%; /* Ajuste proporcional à largura da tela */
-    min-height: 85vh; /* Garante pelo menos 85% da altura da janela */
+    min-height: 83vh; /* Garante pelo menos 85% da altura da janela */
     padding: 20px; /* Mantém o padding mais confortável */
     border: 5px outset #ddb14a; /* Bordas visíveis */
     font-size: 16px; /* Ajusta o tamanho do texto */
