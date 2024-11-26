@@ -87,7 +87,7 @@ body {
 }
 
 #text-box {
-  margin-top: 10%;
+  margin-top: 15%;
   text-align: center;
   width: 9%; /* Garante que a largura seja relativa à tela */
   min-height: 80vh; /* Pelo menos 90% da altura da janela */
@@ -134,6 +134,8 @@ body {
 
 @media (max-width: 414px) and (max-height: 736px) {
   #text-box {
+    margin-top: 10%;
+
     width: 95%; /* Ajuste proporcional à largura da tela */
     min-height: 83vh; /* Garante pelo menos 85% da altura da janela */
     padding: 20px; /* Mantém o padding mais confortável */
